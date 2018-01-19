@@ -342,11 +342,11 @@ void main ()
 						for ( kstep = 0; kstep < k; kstep ++ )
 						{
 
-							// cout << " cavity_field[" << rstep << "][" << mstep << "][" << kstep << "] changed from " << cavity_field[rstep][mstep][kstep] << " to ";
+							cout << " cavity_field[" << rstep << "][" << mstep << "][" << kstep << "] changed from " << cavity_field[rstep][mstep][kstep] << " to ";
 
-							// cavity_field[rstep][mstep][kstep] = cavity_field[rstep][mstep][kstep] - F * ( cavity_field[rstep][mstep][kstep] - average_cavity_field[mstep][kstep] );
+							cavity_field[rstep][mstep][kstep] = cavity_field[rstep][mstep][kstep] - F * ( cavity_field[rstep][mstep][kstep] - average_cavity_field[mstep][kstep] );
 
-							// cout << cavity_field[rstep][mstep][kstep] << endl;
+							cout << cavity_field[rstep][mstep][kstep] << endl;
 
 						}
 
